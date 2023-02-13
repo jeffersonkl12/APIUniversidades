@@ -1,0 +1,20 @@
+{
+  "name": "scriptjson2b",
+  "version": "1.0.0",
+  "description": "script para popular um banco de dados",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jefferson",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1",
+    "node-fetch": "^3.3.0",
+    "validator": "^13.9.0"
+  }
+}
